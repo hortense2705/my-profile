@@ -1,0 +1,118 @@
+
+/* General page style */
+body {
+  background-color: #f7f3f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Main card */
+.card {
+  background-color: white;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Smaller cards */
+.section-card {
+  background-color: #faf7f5;
+  margin: 25px 0;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Titles */
+h1 {
+  color: #9b6b6b;
+}
+
+h2 {
+  color: #b58b8b;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Profile picture */
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Buttons and links */
+a {
+  display: inline-block;
+  background-color: #9b6b6b;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect on buttons */
+a:hover {
+  background-color: #d49b9b;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 960px) {
+  .card {
+    max-width: 700px;
+  }
+}
+
+/* Small tablets */
+@media (max-width: 720px) {
+  .card {
+    max-width: 500px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 540px) {
+  body {
+    padding: 10px;
+  }
+
+  .card {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
